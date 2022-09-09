@@ -1,10 +1,6 @@
 using Genie.Router
 import Genie.Renderer.Json: json
 
-route("/") do
-  serve_static_file("welcome.html")
-end
-
 route("/api/") do
   response = Dict(
   :nome => "Julia",
