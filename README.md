@@ -18,6 +18,7 @@ Usando o REPL do Julia
 ```bash
 julia> import Pkg
 julia> Pkg.activate(".")
+julia> Pkg.instantiate()
 julia> using Genie
 julia> Genie.loadapp()
 julia> up()
